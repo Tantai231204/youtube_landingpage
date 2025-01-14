@@ -1,0 +1,45 @@
+.channelTile {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+    gap: 10rem;
+}
+
+.channelImg {
+    width: 120px;
+    border-radius: 70px;
+    object-fit: contain;
+    margin-left: 100px;
+}
+
+.title_left {
+    flex: 0.3;
+}
+
+.title_middle {
+    flex: 0.5;
+}
+
+.title_right {
+    flex: 0.2;
+}
+
+.subscribe {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #fff;
+    background-color: #000  ;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 24px;
+    cursor: pointer;
+}
+
+.channelName {
+    font-size: 30px;
+    border: #000;
+}
