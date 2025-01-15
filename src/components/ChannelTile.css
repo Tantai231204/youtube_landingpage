@@ -1,0 +1,45 @@
+.channelTile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+.title_div span{
+    font-size: 22px;
+}
+.tile_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 260px;
+}
+.channelImg {
+    max-width: 120px;
+    border-radius: 70px;
+    object-fit: contain;
+}
+.tile_middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 270px;
+}
+.subscribe {
+    font-size: 13px;
+    font-weight: 500;   
+    letter-spacing: 0.5px;
+    color: #000;
+    background-color: #fff  ;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.channelName {
+    font-size: 19px;
+    border: #000;
+}

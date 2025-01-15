@@ -1,0 +1,96 @@
+
+.searchPage {
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:var(--sidebar_bbg);
+    color: #fff;
+  }
+  .data__container {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tag{
+    margin-top: 5%;
+    z-index: 100;
+  }
+  .forwardButton {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .filterBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    background-color: #212121;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    padding: 6px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: auto;
+  }
+  
+  .filterBlock:hover {
+    background-color: #333333;
+  }
+  
+  .filterBlock h2 {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .filterBlock .filterIcon {
+    font-size: 16px;
+  }
+  
+  .filterModalContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 16px;
+  }
+  
+  .filterSection ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .filterSection ul li {
+    margin: 8px 0;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .filterSection ul li:hover {
+    color: #1a73e8;
+  }
+  
+  .videoTile__container {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important ;
+    margin-top: 1rem !important;
+  }
+  

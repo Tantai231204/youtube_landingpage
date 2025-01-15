@@ -1,9 +1,9 @@
-import React from "react";
 import VideoCard from "../components/VideoCard";
 import "../pages/Home.css";
 import AdBanner from "../components/AdBanner";
 import "../assets/banners/banner-adplaceholder.png";
 import Tag from "../components/Tag";
+import Header from "../components/Header";
 // Dynamically import all images in the 'pictures' folder
 const thumbnails = import.meta.glob("../assets/images/thumbnails/*.jpg", {
   eager: true,
@@ -18,10 +18,11 @@ const bannerPath = Object.values(banners)[0].default;
 const thumbnailPaths = Object.values(thumbnails).map((img) => img.default);
 function Home() {
   return (
-    <>
+    <div className="app">
+      <Header />
       <div className="home-container">
         <div className="tag-container">
-          <Tag/>
+          <Tag />
         </div>
         <div className="ad-banner">
           <AdBanner bannerSource={bannerPath} />
@@ -32,7 +33,7 @@ function Home() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
